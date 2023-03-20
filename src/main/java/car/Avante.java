@@ -6,9 +6,13 @@ public class Avante extends Car {
     public Avante(int distance) {
         this.distance = distance;
     }
+    @Override
+    public double getDistancePerLiter() {
+        return 15;
+    }
 
     @Override
-    public int calculate() {
-        return distance / 15;
+    public double getDistance() {
+        return distance;
     }
 }
