@@ -24,3 +24,19 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+---
+TODO
+[좌표]
+1. X,Y는 0 <= X,Y <= 24 이다.
+
+[점]
+1. 제곱근((A.x - B.x)^제곱 + (A.y - B.y)^제곱)식을 사용해서 두 점 사이의 거리를 구한다.
+
+[INPUT]
+1. "-" 로 두 점의 좌표값을 분리한다.
+2. "," 로 X,Y값을 분리 후 X는 맨앞을 Y는 맨뒤를 삭제한다.
+
+[OUTPUT]
+1. 입력받은 좌표에 특수문자를 그려준다.
+2. 거리를 출력한다.
